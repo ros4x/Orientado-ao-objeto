@@ -16,6 +16,9 @@ eat(quantity: number): void {
 getName():string{
     return this.name
 }
+setName(Name):void{
+    this.name = Name
+}
 getAge(){
     return this.Age
 }
